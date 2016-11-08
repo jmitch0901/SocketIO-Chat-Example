@@ -1,0 +1,23 @@
+{
+  "name": "socketio-chat-example",
+  "version": "1.0.0",
+  "description": "A simple socketio chat application.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jmitch0901/SocketIO-Chat-Example.git"
+  },
+  "author": "Jonathan Mitchell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmitch0901/SocketIO-Chat-Example/issues"
+  },
+  "homepage": "https://github.com/jmitch0901/SocketIO-Chat-Example#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.5.1"
+  }
+}

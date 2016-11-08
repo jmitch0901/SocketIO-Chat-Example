@@ -1,0 +1,55 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.body {
+  position: fixed;
+  top: 0;
+  bottom:0;
+  left:0;
+  right:0;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.feed {
+  display: flex;
+  flex:10;
+  border: 5px solid black;
+}
+
+.feed ul {
+  flex-direction: column;
+  flex: 1;
+  border: 1px solid red;
+  overflow-y: auto;
+  padding:0;
+  margin: 0;
+}
+
+.input{
+  flex: 1;
+  display: flex;
+}
+
+.input button{
+  flex:1;
+  background-color: lightgreen;
+  font-size: 26pt;
+}
+
+.input input[type="text"] {
+  flex: 5;
+  font-size: 26pt;
+}
+
+li.listItem {
+  border-bottom: 1px solid black;
+
+  text-align: left;
+  list-style: none;
+  padding-left: 1em;
+  font-size: 52pt;
+}
